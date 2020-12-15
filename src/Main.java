@@ -6,6 +6,11 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-
+        Integer [] integerArray={1,2,3};
+        Double [] doubleArray={1.1,2.1,3.1};
+        Character [] characterArray={'a','b','c'};
+        printArray(integerArray);
+        printArray(doubleArray);
+        printArray(characterArray);
     }
 }
