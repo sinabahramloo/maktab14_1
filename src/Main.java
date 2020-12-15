@@ -12,7 +12,7 @@ public class Main {
         }
         }
         else {
-            throw new IllegalArgumentException("lowSubscript and highSubscript must be in array rnge and lowSubscript must be lower thanhighSubscript");
+            throw new IllegalArgumentException("lowSubscript and highSubscript must be in array rnge and lowSubscript must be lower than highSubscript");
         }
     }
     public static void main(String[] args) {
