@@ -5,5 +5,7 @@ public class Main {
             System.out.println(i.toString());
         }
     }
+    public static void main(String[] args) {
 
+    }
 }
