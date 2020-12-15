@@ -22,5 +22,8 @@ public class Main {
         printArray(integerArray);
         printArray(doubleArray);
         printArray(characterArray);
+        printArray(integerArray,0,2);
+        printArray(doubleArray,2,3);
+        printArray(characterArray,-1,2);
     }
 }
