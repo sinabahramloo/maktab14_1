@@ -15,6 +15,11 @@ public class Main {
             throw new IllegalArgumentException("lowSubscript and highSubscript must be in array rnge and lowSubscript must be lower than highSubscript");
         }
     }
+    public static  void printArray(String[]array){
+        for (String i:array) {
+            System.out.println(i);
+        }
+    }
     public static void main(String[] args) {
         Integer [] integerArray={1,2,3};
         Double [] doubleArray={1.1,2.1,3.1};
